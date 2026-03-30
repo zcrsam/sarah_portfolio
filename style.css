@@ -195,10 +195,10 @@ html.light .cert-card { background: linear-gradient(135deg, rgba(201,160,0,0.08)
 .c-sub { font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; color: var(--muted); }
 .c-arrow { font-size: 0.75rem; color: var(--muted); transition: color 0.2s; }
 .c-link:hover .c-arrow { color: var(--blue); }
-.sc-card { background: var(--card); border: 1px solid var(--border); padding: 1.4rem; margin-bottom: 0.8rem; }
+.sc-card { background: var(--card); border: 1px solid var(--border); padding: 1.4rem; margin-bottom: 0.8rem; position: relative; }
 .sc-card h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; margin-bottom: 0.8rem; }
-.sc-item { display: flex; align-items: center; gap: 0.6rem; font-size: 0.87rem; color: var(--text); }
-.sc-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--blue); animation: pulse-dot 2s infinite; }
+.sc-item { display: flex; align-items: center; gap: 0.6rem; font-size: 0.87rem; color: var(--text); position: relative; }
+.sc-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--blue); animation: pulse-dot 2s infinite; flex-shrink: 0; position: static; }
 .loc-card { background: var(--card); border: 1px solid var(--border); padding: 1.4rem; }
 .loc-card h4 { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; margin-bottom: 0.8rem; }
 .loc-name { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.05rem; margin-bottom: 0.4rem; }
