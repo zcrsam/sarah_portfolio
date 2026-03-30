@@ -131,7 +131,7 @@ html.light .glow-2 { background: rgba(201,160,0,0.06); }
 .sb-label { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; color: var(--text); display: flex; justify-content: space-between; }
 .sb-label span { color: var(--muted); }
 
-/* PROJECTS */
+/* PROJECTS - Updated */
 .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; }
 .project-card { 
   background: var(--card); 
