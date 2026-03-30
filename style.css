@@ -41,8 +41,8 @@ nav.scrolled { border-bottom-color: var(--border); }
 .nav-right { display: flex; align-items: center; gap: 0.8rem; }
 .theme-btn { width: 38px; height: 38px; background: transparent; border: 1px solid var(--border); color: var(--muted); display: flex; align-items: center; justify-content: center; cursor: none; font-size: 1rem; transition: border-color 0.2s, color 0.2s; }
 .theme-btn:hover { border-color: var(--blue); color: var(--blue); }
-.nav-resume { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; background: var(--blue); color: #0a0a0a; padding: 0.6rem 1.2rem; border: none; cursor: none; font-weight: 600; letter-spacing: 0.05em; transition: opacity 0.2s; }
-.nav-resume:hover { opacity: 0.85; }
+.nav-resume { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; background: var(--blue); color: #0a0a0a; padding: 0.6rem 1.2rem; border: none; cursor: none; font-weight: 600; letter-spacing: 0.05em; transition: opacity 0.2s; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; }
+.nav-resume:hover { opacity: 0.85; transform: translateX(4px); }
 
 /* HERO */
 .hero { min-height: 100vh; display: flex; align-items: center; padding: 7rem 3rem 3rem; position: relative; overflow: hidden; }
